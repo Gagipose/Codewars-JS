@@ -10,7 +10,7 @@
 // make string an array using ... spread
 function getCount([...str]) { 
     let vowelsOnly = (letter) => {
-        
+
     }
 
     return vowelsOnly.length // return lenght of new array
@@ -30,7 +30,7 @@ function getCount([...str]) {
 function getCount(str) {
     let vowelCounter = 0 //make variable vowelCounter
     for (let i = 0; i < str.length; i++) {
-        x = str[i]; // current letter (to save space)
+        let x = str[i]; // current letter (to save space)
         vowelCounter += (
             x === "a" || 
             x === "e" || 

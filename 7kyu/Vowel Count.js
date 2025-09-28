@@ -30,7 +30,7 @@ function getCount([...str]) {
 function getCount(str) {
     let vowelCounter = 0 //make variable vowelCounter
     for (let i = 0; i < str.length; i++) {
-        let x = str[i]; // current letter (to save space)
+        const x = str[i]; // current letter (to save space)
         vowelCounter += (
             x === "a" || 
             x === "e" || 

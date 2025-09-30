@@ -11,16 +11,16 @@
 function squareDigits(num){
 
     // turn into string then array
-    let numArray = Array.from(num.toString());
+    const numArray = Array.from(num.toString());
 
     // map each so it returns them squared
-    squaredArray = numArray.map(num => num**2);
+    const squaredArray = numArray.map(num => num**2);
 
     // add togeather array items as a string
-    resultString = squaredArray.join("");
+    const resultString = squaredArray.join("");
 
     // convert string to integer
-    resultInteger = Number(resultString);
+    const resultInteger = Number(resultString);
 
 
 
